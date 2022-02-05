@@ -103,7 +103,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover,
 .header-link:focus {
@@ -132,7 +132,7 @@ body {
 .header-link.tel,
 .header-link.mail {
   color: var(--title-text-color);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link.mail:hover,
 .header-link.mail:focus,
@@ -341,7 +341,8 @@ body {
   height: 44px;
   border-radius: 50%;
   color: #afb1b8;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover,
 .social-link:focus {
@@ -391,7 +392,9 @@ body {
 
   border-radius: 4px;
   color: #afb1b8;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-icon {
@@ -470,7 +473,7 @@ body {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   color: #ffffff;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link-footer:hover,
 .social-link-footer:focus {
@@ -504,7 +507,9 @@ body {
   font-style: inherit;
   cursor: pointer;
   border: 0;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -527,7 +532,7 @@ body {
 }
 .portfolio-link {
   display: block;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
@@ -588,6 +593,8 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal {
   width: 528px;
